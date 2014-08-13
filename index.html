@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<title>Dinner Deals</title>
+</head>
+<body>
+	<button id="enter">Enter</button>
+	<button id="clear">Clear</button>
+	<div id="results"></div>
+
+<script src="js\zepto.js"></script>	
+<script src="js\enter.js"></script>
+<script>
+$('#enter').click(function()	{
+	ENTER.DoIt($('#results'));
+});
+$('#clear').click(function()	{
+	$('#results').html('');
+});
+</script>		
+</body>
+</html>
